@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Registration_Form</title>
+        <style>
+            button{
+               width: 20%;
+               height: 40px;
+               background-color: powderblue;
+            }
+            body
+            {
+               background-color:paleturquoise;
+               font-size: medium;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="about.html">Home</a>
+            <a href="Registration.html">Registration</a>
+            <a href="login.html">Login</a>
+            </nav>
+        <h1 style="text-align:center ;">Welcome To Registration Page</h1>
+        <center>
+            <form action="/collect" method="POST">
+                <label for="fname">FullName</label><br><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter Name"/><br><br>
+                <label for="phone">Phone Number</label><br><br>
+                <input type="number" id="phone" name="phone" placeholder="Enter your number"/><br><br/>
+                <label for="place">Place</label><br><br>
+                <input type="text" id="place" name="place" placeholder="Enter your place"/><br><br/>
+                <label for="password">Password</label><br><br>
+                <input type="password" id="password" name="password" placeholder="Enter your password"/><br><br/>
+                <input type="submit" placeholder="Submit"/><br><br/>
+                <input type="reset" placeholder="Reset"/><br><br>
+            </form>
+        </center>
+    </body>
+</html>
